@@ -209,7 +209,12 @@
       </plugin>
     </plugins>
   </build>
-
+  <distributionManagement>
+    <repository>
+        <id>SpringPetClinic</id>
+        <url>https://github.com/ZabeerGit/SpringPetClinic.git</url>
+    </repository>
+  </distributionManagement>
   <!-- Apache 2 license -->
   <licenses>
     <license>
